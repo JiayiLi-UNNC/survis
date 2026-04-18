@@ -1,0 +1,455 @@
+
+
+@InProceedings{10.1007/978-3-319-24574-4_28,
+author="Ronneberger, Olaf
+and Fischer, Philipp
+and Brox, Thomas",
+editor="Navab, Nassir
+and Hornegger, Joachim
+and Wells, William M.
+and Frangi, Alejandro F.",
+title="U-Net: Convolutional Networks for Biomedical Image Segmentation",
+booktitle="Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2015",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="234--241",
+volume="9351",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-319-24574-4_28",
+url="https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28",
+abstract="There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net.",
+isbn="978-3-319-24574-4",
+keywords={type:cnn}
+}
+
+
+
+@InProceedings{10.1007/978-3-030-59725-2_26,
+author="Fan, Deng-Ping
+and Ji, Ge-Peng
+and Zhou, Tao
+and Chen, Geng
+and Fu, Huazhu
+and Shen, Jianbing
+and Shao, Ling",
+editor="Martel, Anne L.
+and Abolmaesumi, Purang
+and Stoyanov, Danail
+and Mateus, Diana
+and Zuluaga, Maria A.
+and Zhou, S. Kevin
+and Racoceanu, Daniel
+and Joskowicz, Leo",
+title="PraNet: Parallel Reverse Attention Network for Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2020",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="263--273",
+volume="12266",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-030-59725-2_26",
+url="https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26",
+abstract="Colonoscopy is an effective technique for detecting colorectal polyps, which are highly related to colorectal cancer. In clinical practice, segmenting polyps from colonoscopy images is of great importance since it provides valuable information for diagnosis and surgery. However, accurate polyp segmentation is a challenging task, for two major reasons: (i) the same type of polyps has a diversity of size, color and texture; and (ii) the boundary between a polyp and its surrounding mucosa is not sharp. To address these challenges, we propose a parallel reverse attention network (PraNet) for accurate polyp segmentation in colonoscopy images. Specifically, we first aggregate the features in high-level layers using a parallel partial decoder (PPD). Based on the combined feature, we then generate a global map as the initial guidance area for the following components. In addition, we mine the boundary cues using the reverse attention (RA) module, which is able to establish the relationship between areas and boundary cues. Thanks to the recurrent cooperation mechanism between areas and boundaries, our PraNet is capable of calibrating some misaligned predictions, improving the segmentation accuracy. Quantitative and qualitative evaluations on five challenging datasets across six metrics show that our PraNet improves the segmentation accuracy significantly, and presents a number of advantages in terms of generalizability, and real-time segmentation efficiency ({\$}{\$}{\backslash}varvec{\{}{\backslash}sim {\}}{\$}{\$}∼50 fps).",
+isbn="978-3-030-59725-2",
+keywords={type:cnn}
+}
+
+
+
+@InProceedings{10.1007/978-3-030-59725-2_25,
+author="Zhang, Ruifei
+and Li, Guanbin
+and Li, Zhen
+and Cui, Shuguang
+and Qian, Dahong
+and Yu, Yizhou",
+editor="Martel, Anne L.
+and Abolmaesumi, Purang
+and Stoyanov, Danail
+and Mateus, Diana
+and Zuluaga, Maria A.
+and Zhou, S. Kevin
+and Racoceanu, Daniel
+and Joskowicz, Leo",
+title="Adaptive Context Selection for Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2020",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="253--262",
+volume="12266",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-030-59725-2_25",
+url="https://link.springer.com/chapter/10.1007/978-3-030-59725-2_25",
+abstract="Accurate polyp segmentation is of great significance for the diagnosis and treatment of colorectal cancer. However, it has always been very challenging due to the diverse shape and size of polyp. In recent years, state-of-the-art methods have achieved significant breakthroughs in this task with the help of deep convolutional neural networks. However, few algorithms explicitly consider the impact of the size and shape of the polyp and the complex spatial context on the segmentation performance, which results in the algorithms still being powerless for complex samples. In fact, segmentation of polyps of different sizes relies on different local and global contextual information for regional contrast reasoning. To tackle these issues, we propose an adaptive context selection based encoder-decoder framework which is composed of Local Context Attention (LCA) module, Global Context Module (GCM) and Adaptive Selection Module (ASM). Specifically, LCA modules deliver local context features from encoder layers to decoder layers, enhancing the attention to the hard region which is determined by the prediction map of previous layer. GCM aims to further explore the global context features and send to the decoder layers. ASM is used for adaptive selection and aggregation of context features through channel-wise attention. Our proposed approach is evaluated on the EndoScene and Kvasir-SEG Datasets, and shows outstanding performance compared with other state-of-the-art methods. The code is available at https://github.com/ReaFly/ACSNet.",
+isbn="978-3-030-59725-2",
+keywords={type:cnn}
+}
+
+
+
+
+
+@InProceedings{10.1007/978-3-031-16437-8_11,
+author="Wang, Jinfeng
+and Huang, Qiming
+and Tang, Feilong
+and Meng, Jia
+and Su, Jionglong
+and Song, Sifan",
+editor="Wang, Linwei
+and Dou, Qi
+and Fletcher, P. Thomas
+and Speidel, Stefanie
+and Li, Shuo",
+title="Stepwise Feature Fusion: Local Guides Global",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="110--120",
+volume="13433",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-031-16437-8_11",
+url="https://link.springer.com/chapter/10.1007/978-3-031-16437-8_11",
+abstract="Colonoscopy, currently the most efficient and recognized colon polyp detection technology, is necessary for early screening and prevention of colorectal cancer. However, due to the varying size and complex morphological features of colonic polyps as well as the indistinct boundary between polyps and mucosa, accurate segmentation of polyps is still challenging. Deep learning has become popular for accurate polyp segmentation tasks with excellent results. However, due to the structure of polyps image and the varying shapes of polyps, it is easy for existing deep learning models to overfit the current dataset. As a result, the model may not process unseen colonoscopy data. To address this, we propose a new state-of-the-art model for medical image segmentation, the SSFormer, which uses a pyramid Transformer encoder to improve the generalization ability of models. Specifically, our proposed Progressive Locality Decoder can be adapted to the pyramid Transformer backbone to emphasize local features and restrict attention dispersion. The SSFormer achieves state-of-the-art performance in both learning and generalization assessment.",
+isbn="978-3-031-16437-8",
+keywords={type:transformer}
+}
+
+
+
+@InProceedings{10.1007/978-3-031-16437-8_15,
+author="Tomar, Nikhil Kumar
+and Jha, Debesh
+and Bagci, Ulas
+and Ali, Sharib",
+editor="Wang, Linwei
+and Dou, Qi
+and Fletcher, P. Thomas
+and Speidel, Stefanie
+and Li, Shuo",
+title="TGANet: Text-Guided Attention for Improved Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="151--160",
+volume="13433",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-031-16437-8_15",
+url="https://link.springer.com/chapter/10.1007/978-3-031-16437-8_15",
+abstract="Colonoscopy is a gold standard procedure but is highly operator-dependent. Automated polyp segmentation, a precancerous precursor, can minimize missed rates and timely treatment of colon cancer at an early stage. Even though there are deep learning methods developed for this task, variability in polyp size can impact model training, thereby limiting it to the size attribute of the majority of samples in the training dataset that may provide sub-optimal results to differently sized polyps. In this work, we exploit size-related and polyp number-related features in the form of text attention during training. We introduce an auxiliary classification task to weight the text-based embedding that allows network to learn additional feature representations that can distinctly adapt to differently sized polyps and can adapt to cases with multiple polyps. Our experimental results demonstrate that these added text embeddings improve the overall performance of the model compared to state-of-the-art segmentation methods. We explore four different datasets and provide insights for size-specific improvements. Our proposed text-guided attention network (TGANet) can generalize well to variable-sized polyps in different datasets. Codes are available at https://github.com/nikhilroxtomar/TGANet.",
+isbn="978-3-031-16437-8",
+keywords={type:transformer}
+}
+
+
+@article{Dong2023, 
+author = {Bo Dong and Wenhai Wang and Deng-Ping Fan and Jinpeng Li and Huazhu Fu and Ling Shao},
+title = {Polyp-PVT: Polyp Segmentation with Pyramid Vision Transformers},
+year = {2023},
+journal = {CAAI Artificial Intelligence Research},
+volume = {2},
+pages = {9150015},
+publisher = {Tsinghua University Press},
+issn = {2097-194X},
+keywords = {type:transformer},
+url = {https://www.sciopen.com/article/10.26599/AIR.2023.9150015},
+doi = {10.26599/AIR.2023.9150015},
+series= {CAAI AIR},
+abstract = {Most polyp segmentation methods use convolutional neural networks (CNNs) as their backbone, leading to two key issues when exchanging information between the encoder and decoder: (1) taking into account the differences in contribution between different-level features, and (2) designing an effective mechanism for fusing these features. Unlike existing CNN-based methods, we adopt a transformer encoder, which learns more powerful and robust representations. In addition, considering the image acquisition influence and elusive properties of polyps, we introduce three standard modules, including a cascaded fusion module (CFM), a camouflage identification module (CIM), and a similarity aggregation module (SAM). Among these, the CFM is used to collect the semantic and location information of polyps from high-level features; the CIM is applied to capture polyp information disguised in low-level features, and the SAM extends the pixel features of the polyp area with high-level semantic position information to the entire polyp area, thereby effectively fusing cross-level features. The proposed model, named Polyp-PVT, effectively suppresses noises in the features and significantly improves their expressive capabilities. Extensive experiments on five widely adopted datasets show that the proposed model is more robust to various challenging situations (e.g., appearance changes, small objects, and rotation) than existing representative methods. The proposed model is available at https://github.com/DengPingFan/Polyp-PVT.}
+}
+
+
+@INPROCEEDINGS{10030763,
+  author={Rahman, Md Mostafijur and Marculescu, Radu},
+  booktitle={2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={Medical Image Segmentation via Cascaded Attention Decoding}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={6211-6220},
+  publisher={IEEE},
+  keywords={type:transformer},
+  doi={10.1109/WACV56688.2023.00616},
+  url={https://ieeexplore.ieee.org/document/10030763},
+  series= {WACV},
+  abstract ={Transformers have shown great promise in medical image segmentation due to their ability to capture long-range dependencies through self-attention. However, they lack the ability to learn the local (contextual) relations among pixels. Previous works try to overcome this problem by embedding convolutional layers either in the encoder or decoder modules of transformers thus ending up sometimes with inconsistent features. To address this issue, we propose a novel attention-based decoder, namely CASCaded Attention DEcoder (CASCADE), which leverages the multi-scale features of hierarchical vision transformers. CASCADE consists of i) an attention gate which fuses features with skip connections and ii) a convolutional attention module that enhances the long-range and local context by suppressing background information. We use a multi-stage feature and loss aggregation framework due to their faster convergence and better performance. Our experiments demonstrate that transformers with CASCADE significantly outperform state-of-the-art CNN- and transformer-based approaches, obtaining up to 5.07% and 6.16% improvements in DICE and mIoU scores, respectively. CASCADE opens new ways of designing better attention-based decoders.}
+  }
+
+
+@InProceedings{10.1007/978-3-031-72114-4_12,
+author="Li, Huiqian
+and Zhang, Dingwen
+and Yao, Jieru
+and Han, Longfei
+and Li, Zhongyu
+and Han, Junwei",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="ASPS: Augmented Segment Anything Model for Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="118--128",
+volume="15009",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-031-72114-4_12",
+url="https://link.springer.com/chapter/10.1007/978-3-031-72114-4_12",
+abstract="Polyp segmentation plays a pivotal role in colorectal cancer diagnosis. Recently, the emergence of the Segment Anything Model (SAM) has introduced unprecedented potential for polyp segmentation, leveraging its powerful pre-training capability on large-scale datasets. However, due to the domain gap between natural and endoscopy images, SAM encounters two limitations in achieving effective performance in polyp segmentation. Firstly, its Transformer-based structure prioritizes global and low-frequency information, potentially overlooking local details, and introducing bias into the learned features. Secondly, when applied to endoscopy images, its poor out-of-distribution (OOD) performance results in substandard predictions and biased confidence output. To tackle these challenges, we introduce a novel approach named Augmented SAM for Polyp Segmentation (ASPS), equipped with two modules: Cross-branch Feature Augmentation (CFA) and Uncertainty-guided Prediction Regularization (UPR). CFA integrates a trainable CNN encoder branch with a frozen ViT encoder, enabling the integration of domain-specific knowledge while enhancing local features and high-frequency details. Moreover, UPR ingeniously leverages SAM's IoU score to mitigate uncertainty during the training procedure, thereby improving OOD performance and domain generalization. Extensive experimental results demonstrate the effectiveness and utility of the proposed method in improving SAM's performance in polyp segmentation. Our code is available at https://github.com/HuiqianLi/ASPS.",
+isbn="978-3-031-72114-4",
+keywords={type:foundation-model}
+}
+
+
+
+@InProceedings{10.1007/978-3-031-72111-3_48,
+author="Xu, Zhongxing
+and Tang, Feilong
+and Chen, Zhe
+and Zhou, Zheng
+and Wu, Weishan
+and Yang, Yuyao
+and Liang, Yu
+and Jiang, Jiyu
+and Cai, Xuyue
+and Su, Jionglong",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="Polyp-Mamba: Polyp Segmentation with Visual Mamba",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="510--521",
+volume="15008",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-031-72111-3_48",
+url="https://link.springer.com/chapter/10.1007/978-3-031-72111-3_48",
+abstract="Accurate segmentation of polyps is crucial for efficient colorectal cancer detection during the colonoscopy screenings. State Space Models, exemplified by Mamba, have recently emerged as a promising approach, excelling in long-range interaction modeling with linear computational complexity. However, previous methods do not consider the cross-scale dependencies of different pixels and the consistency in feature representations and semantic embedding, which are crucial for polyp segmentation. Therefore, we introduce Polyp-Mamba, a novel unified framework aimed at overcoming the above limitations by integrating multi-scale feature learning with semantic structure analysis. Specifically, our framework includes a Scale-Aware Semantic module that enables the embedding of multi-scale features from the encoder to achieve semantic information modeling across both intra- and inter-scales, rather than the single-scale approach employed in prior studies. Furthermore, the Global Semantic Injection module is deployed to inject scale-aware semantics into the corresponding decoder features, aiming to fuse global and local information and enhance pyramid feature representation. Experimental results across five challenging datasets and six metrics demonstrate that our proposed method not only surpasses state-of-the-art methods but also sets a new benchmark in the field, underscoring the Polyp-Mamba framework's exceptional proficiency in the polyp segmentation tasks.",
+isbn="978-3-031-72111-3",
+keywords={type:foundation-model}
+}
+
+
+
+@InProceedings{10.1007/978-3-031-72111-3_51,
+author="Chai, Jiaxing
+and Luo, Zhiming
+and Gao, Jianzhe
+and Dai, Licun
+and Lai, Yingxin
+and Li, Shaozi",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="QueryNet: A Unified Framework for Accurate Polyp Segmentation and Detection",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="544--554",
+volume="15008",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-031-72111-3_51",
+url="https://link.springer.com/chapter/10.1007/978-3-031-72111-3_51",
+abstract="Recently, deep learning-based methods have demonstrated effectiveness in the diagnosing of polyps, which holds clinical significance in the prevention of colorectal cancer. These methods can be broadly categorized into two tasks: Polyp Segmentation (PS) and Polyp Detection (PD). The advantage of PS lies in precise localization, but it is constrained by the contrast of the polyp area. On the other hand, PD provides the advantages of global perspective but is susceptible to issues such as false positives or missed detections. Despite substantial progress in both tasks, there has been limited exploration of integrating these two tasks. To address this problem, we introduce QueryNet, a unified framework for accurate polyp segmentation and detection. Specially, our QueryNet is constructed on top of Mask2Former, a query-based segmentation model. It conceptualizes object queries as cluster centers and constructs a detection branch to handle both tasks. Extensive quantitative and qualitative experiments on five public benchmarks verify that this unified framework effectively mitigates the task-specific limitations, thereby enhancing the overall performance. Furthermore, QueryNet achieves comparable performance against state-of-the-art PS and PD methods. Code is available at Github.",
+isbn="978-3-031-72111-3",
+keywords={type:foundation-model}
+}
+
+
+
+
+@InProceedings{10.1007/978-3-030-87193-2_14,
+author="Ji, Ge-Peng
+and Chou, Yu-Cheng
+and Fan, Deng-Ping
+and Chen, Geng
+and Fu, Huazhu
+and Jha, Debesh
+and Shao, Ling",
+editor="de Bruijne, Marleen
+and Cattin, Philippe C.
+and Cotin, St{\'e}phane
+and Padoy, Nicolas
+and Speidel, Stefanie
+and Zheng, Yefeng
+and Essert, Caroline",
+title="Progressively Normalized Self-Attention Network for Video Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2021",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="142--152",
+volume="12901",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-030-87193-2_14",
+url="https://link.springer.com/chapter/10.1007/978-3-030-87193-2_14",
+abstract="Existing video polyp segmentation(VPS) models typically employ convolutional neural networks (CNNs) to extract features. However, due to their limited receptive fields, CNNs cannot fully exploit the global temporal and spatial information in successive video frames, resulting in false positive segmentation results. In this paper, we propose the novel PNS-Net (Progressively Normalized Self-attention Network), which can efficiently learn representations from polyp videos with real-time speed ({\$}{\$}{\backslash}sim {\$}{\$}∼140fps) on a single RTX 2080 GPU and no post-processing. Our PNS-Net is based solely on a basic normalized self-attention block, equipping with recurrence and CNNs entirely. Experiments on challenging VPS datasets demonstrate that the proposed PNS-Net achieves state-of-the-art performance. We also conduct extensive experiments to study the effectiveness of the channel split, soft-attention, and progressive learning strategy. We find that our PNS-Net works well under different settings, making it a promising solution to the VPS task.",
+isbn="978-3-030-87193-2",
+keywords={type:video-segmentation}
+}
+
+
+
+@article{Ji2022,
+  author    = {Ji, Ge-Peng and Xiao, Guobao and Chou, Yu-Cheng and Fan, Deng-Ping and Zhao, Kai and Chen, Geng and Van Gool, Luc},
+  title     = {Video Polyp Segmentation: A Deep Learning Perspective},
+  journal   = {Machine Intelligence Research},
+  year      = {2022},
+  volume    = {19},
+  number    = {6},
+  pages     = {531--549},
+  month     = dec,
+  issn      = {2731-5398},
+  publisher = {Springer},
+  doi       = {10.1007/s11633-022-1371-y},
+  url       = {https://doi.org/10.1007/s11633-022-1371-y},
+  keywords  = {type:video-segmentation},
+  series= {MIR},
+  abstract  = {We present the first comprehensive video polyp segmentation (VPS) study in the deep learning era. Over the years, developments in VPS are not moving forward with ease due to the lack of a large-scale dataset with fine-grained segmentation annotations. To address this issue, we first introduce a high-quality frame-by-frame annotated VPS dataset, named SUN-SEG, which contains 158690 colonoscopy video frames from the well-known SUN-database. We provide additional annotation covering diverse types, i.e., attribute, object mask, boundary, scribble, and polygon. Second, we design a simple but efficient baseline, named PNS+, which consists of a global encoder, a local encoder, and normalized self-attention (NS) blocks. The global and local encoders receive an anchor frame and multiple successive frames to extract long-term and short-term spatial-temporal representations, which are then progressively refined by two NS blocks. Extensive experiments show that PNS+ achieves the best performance and real-time inference speed (170 fps), making it a promising solution for the VPS task. Third, we extensively evaluate 13 representative polyp/object segmentation models on our SUN-SEG dataset and provide attribute-based comparisons. Finally, we discuss several open issues and suggest possible research directions for the VPS community. Our project and dataset are publicly available at https://github.com/GewelsJI/VPS.}
+}
+
+@InProceedings{10.1007/978-3-031-72089-5_50,
+author="Hu, Qiang
+and Yi, Zhenyu
+and Zhou, Ying
+and Peng, Fang
+and Liu, Mei
+and Li, Qiang
+and Wang, Zhiwei",
+editor="Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.",
+title="SALI: Short-Term Alignment and Long-Term Interaction Network for Colonoscopy Video Polyp Segmentation",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="531--541",
+volume="15006",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-031-72089-5_50",
+url="https://link.springer.com/chapter/10.1007/978-3-031-72089-5_50",
+abstract="Colonoscopy videos provide richer information in polyp segmentation for rectal cancer diagnosis. However, the endoscope's fast moving and close-up observing make the current methods suffer from large spatial incoherence and continuous low-quality frames, and thus yield limited segmentation accuracy. In this context, we focus on robust video polyp segmentation by enhancing the adjacent feature consistency and rebuilding the reliable polyp representation. To achieve this goal, we in this paper propose SALI network, a hybrid of Short-term Alignment Module (SAM) and Long-term Interaction Module (LIM). The SAM learns spatial-aligned features of adjacent frames via deformable convolution and further harmonizes them to capture more stable short-term polyp representation. In case of low-quality frames, the LIM stores the historical polyp representations as a long-term memory bank, and explores the retrospective relations to interactively rebuild more reliable polyp features for the current segmentation. Combing SAM and LIM, the SALI network of video segmentation shows a great robustness to the spatial variations and low-visual cues. Benchmark on the large-scale SUN-SEG verifies the superiority of SALI over the current state-of-the-arts by improving Dice by 2.1{\%}, 2.5{\%}, 4.1{\%} and 1.9{\%}, for the four test sub-sets, respectively. Codes are at https://github.com/Scatteredrain/SALI.",
+isbn="978-3-031-72089-5",
+keywords={type:video-segmentation}
+}
+
+
+
+
+
+@article{TESEMA2026109777,
+title = {LGPS: A lightweight GAN-based approach for polyp segmentation in colonoscopy images},
+journal = {Biomedical Signal Processing and Control},
+volume = {118},
+pages = {109777},
+year = {2026},
+issn = {1746-8094},
+publisher = {Elsevier},
+doi = {https://doi.org/10.1016/j.bspc.2026.109777},
+url = {https://www.sciencedirect.com/science/article/pii/S1746809426003319},
+author = {Fiseha Berhanu Tesema and Alejandro Guerra-Manzanares and Tianxiang Cui and Qian Zhang and Moses M. Solomon and Xiangjian He},
+keywords = {type:lightweight},
+series= {BSPC},
+abstract = {Accurate and real-time polyp segmentation is essential for early colorectal cancer detection, yet remains challenging due to small, low-contrast lesions and the computational demands of many deep learning models. We propose LGPS, a Lightweight GAN-based Polyp Segmentation framework that achieves high segmentation accuracy with minimal computational overhead. LGPS integrates a MobileNetV2-based generator enhanced with Residual Squeeze-and-Excitation (ReSE) blocks and a discriminator equipped with Convolutional Conditional Random Fields (ConvCRF) to refine spatial coherence and boundary precision. A hybrid loss function — combining Binary Cross-Entropy, Weighted IoU, and Dice Loss — improves class imbalance handling and sensitivity to small or blurry polyps. LGPS is an extremely compact model, requiring only 1.07 million parameters — over 17× smaller than many recent transformer- and CNN-based SOTA architectures — while preserving high segmentation accuracy. In quantitative evaluation, LGPS achieves a Dice score of 0.7299 and an IoU of 0.7867 on the multi-center PolypGen dataset, the most challenging benchmark in polyp segmentation. On the widely used CVC-ClinicDB dataset, LGPS attains the highest IoU (0.9238) among lightweight and transformer-based approaches. The model also runs at 100.08 FPS on 256 × 256 inputs, demonstrating true real-time capability. Stratified evaluation and qualitative results further confirm its robustness on small and low-contrast lesions. These results highlight LGPS as a computationally efficient yet high-performing framework suitable for real-time clinical deployment. The code is available at https://github.com/Falmi/LGPS/.}
+}
+
+
+
+@InProceedings{10.1007/978-3-030-37734-2_37,
+author="Jha, Debesh
+and Smedsrud, Pia H.
+and Riegler, Michael A.
+and Halvorsen, P{\aa}l
+and de Lange, Thomas
+and Johansen, Dag
+and Johansen, H{\aa}vard D.",
+editor="Ro, Yong Man
+and Cheng, Wen-Huang
+and Kim, Junmo
+and Chu, Wei-Ta
+and Cui, Peng
+and Choi, Jung-Woo
+and Hu, Min-Chun
+and De Neve, Wesley",
+title="Kvasir-SEG: A Segmented Polyp Dataset",
+booktitle="MultiMedia Modeling",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="451--462",
+volume="11962",
+series="Lecture Notes in Computer Science",
+doi="10.1007/978-3-030-37734-2_37",
+url="https://link.springer.com/chapter/10.1007/978-3-030-37734-2_37",
+abstract="Pixel-wise image segmentation is a highly demanding task in medical-image analysis. In practice, it is difficult to find annotated medical images with corresponding segmentation masks. In this paper, we present Kvasir-SEG: an open-access dataset of gastrointestinal polyp images and corresponding segmentation masks, manually annotated by a medical doctor and then verified by an experienced gastroenterologist. Moreover, we also generated the bounding boxes of the polyp regions with the help of segmentation masks. We demonstrate the use of our dataset with a traditional segmentation approach and a modern deep-learning based Convolutional Neural Network (CNN) approach. The dataset will be of value for researchers to reproduce results and compare methods. By adding segmentation masks to the Kvasir dataset, which only provide frame-wise annotations, we enable multimedia and computer vision researchers to contribute in the field of polyp segmentation and automatic analysis of colonoscopy images.",
+isbn="978-3-030-37734-2",
+keywords={type:dataset and survey}
+}
+
+
+
+@article{Ali2023,
+  author    = {Ali, Sharib and Jha, Debesh and Ghatwary, Noha and Realdon, Stefano and Cannizzaro, Renato and Salem, Osama E. and Lamarque, Dominique and Daul, Christian and Riegler, Michael A. and Anonsen, Kim V. and Petlund, Andreas and Halvorsen, P{\aa}l and Rittscher, Jens and de Lange, Thomas and East, James E.},
+  title     = {A multi-centre polyp detection and segmentation dataset for generalisability assessment},
+  journal   = {Scientific Data},
+  year      = {2023},
+  volume    = {10},
+  number    = {1},
+  pages     = {75},
+  month     = feb,
+  issn      = {2052-4463},
+  publisher = {Nature Portfolio},
+  doi       = {10.1038/s41597-023-01981-y},
+  url       = {https://doi.org/10.1038/s41597-023-01981-y},
+  keywords  = {type:dataset and survey},
+  series= {Sci Data},
+  abstract  = {Polyps in the colon are widely known cancer precursors identified by colonoscopy. Whilst most polyps are benign, the polyp's number, size and surface structure are linked to the risk of colon cancer. Several methods have been developed to automate polyp detection and segmentation. However, the main issue is that they are not tested rigorously on a large multicentre purpose-built dataset, one reason being the lack of a comprehensive public dataset. As a result, the developed methods may not generalise to different population datasets. To this extent, we have curated a dataset from six unique centres incorporating more than 300 patients. The dataset includes both single frame and sequence data with 3762 annotated polyp labels with precise delineation of polyp boundaries verified by six senior gastroenterologists. To our knowledge, this is the most comprehensive detection and pixel-level segmentation dataset (referred to as PolypGen) curated by a team of computational scientists and expert gastroenterologists. The paper provides insight into data construction and annotation strategies, quality assurance, and technical validation.}
+}
+
+
+
+@article{Mei2025,
+  author    = {Mei, Jiaxin and Zhou, Tao and Huang, Kaiwen and Zhang, Yizhe and Zhou, Yi and Wu, Ye and Fu, Huazhu},
+  title     = {A survey on deep learning for polyp segmentation: techniques, challenges and future trends},
+  journal   = {Visual Intelligence},
+  year      = {2025},
+  volume    = {3},
+  number    = {1},
+  pages     = {1},
+  month     = jan,
+  issn      = {2731-9008},
+  publisher = {Springer},
+  doi       = {10.1007/s44267-024-00071-w},
+  url       = {https://doi.org/10.1007/s44267-024-00071-w},
+  keywords  = {type:dataset and survey},
+  series= {Visual Intelligence},
+  abstract  = {Early detection and assessment of polyps play a crucial role in the prevention and treatment of colorectal cancer (CRC). Polyp segmentation provides an effective solution to assist clinicians in accurately locating and segmenting polyp regions. In the past, people often relied on manually extracted lower-level features such as color, texture, and shape, which often had problems capturing global context and lacked robustness to complex scenarios. With the advent of deep learning, more and more medical image segmentation algorithms based on deep learning networks have emerged, making significant progress in the field. This paper provides a comprehensive review of polyp segmentation algorithms. We first review some traditional algorithms based on manually extracted features and deep segmentation algorithms, and then describe benchmark datasets related to the topic. Specifically, we carry out a comprehensive evaluation of recent deep learning models and results based on polyp size, taking into account the focus of research topics and differences in network structures. Finally, we discuss the challenges of polyp segmentation and future trends in the field.}
+}
+
+
